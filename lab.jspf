@@ -1,0 +1,27 @@
+<label>Naziv:</label><input type="text" name="naziv"><br>
+<% List<Predmet> predmeti = Predmet.findAll();%>
+            
+            <select id="predmeti" name="predmeti">
+                <% for (Predmet predmet : predmeti) {%>
+                <option value="<%=predmet.getSifra()%>"><%=predmet.getNaziv()%></option>
+                <% } %>
+            </select><br>
+            <label>Datum:</label><input type="date" name="datum" id="datr"><br>
+<label>Trajanje:</label><input type="text" name="trajanje"><br>
+<label>Laboratorija:</label><input type="text" name="laboratorija"><br>
+
+<label>Tip aktivnosti</label>
+<select id="tipaktivnosti" name="tipaktivnosti">
+    <option value="1.0">Dezurstvo bez ocenjivanja</option>
+    <option value="1.2">Dezurstvo sa ocenjivanjem</option>
+    <option value="1.3">Dezurstvo sa ispitivanjem i ocenjivanjem</option>
+    <option value="1.0">Dezurstvo na ispitu</option>
+</select><br>
+
+<div class="buttons">
+    <input type="submit" value="Unesi vezbu!">
+</div>
+
+ 
+                
+                

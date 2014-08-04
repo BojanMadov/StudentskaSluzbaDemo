@@ -1,0 +1,17 @@
+<label>Sifra:</label><input type="text" name="sifra"><br>
+<label>Naziv predmeta:</label><input type="text" name="naziv"><br>
+
+<label>Semestar:</label>
+<select id="semestar" name="semestar">
+
+    <option value="zimski">zimski</option>
+    <option value="letnji">letnji</option>
+</select><br>
+
+<label>Skolska godina:</label><input type="text" name="skgod"><br>
+
+
+<div class="buttons">
+    <input type="submit" value="Unesi predmet!">
+</div>
+

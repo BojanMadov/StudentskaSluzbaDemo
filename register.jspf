@@ -1,0 +1,43 @@
+<label>Tip korisnika:</label>
+<select id="tipkorisnika" name="tipkorisnika">
+    <option selected="selected" value="">select</option>
+    <option value="profesor">profesor</option>
+    <option value="demonstrator">demonstrator</option>
+</select><br>
+
+<label>Korisnicko ime:</label><input type="text" name="username"><br>
+<label>Lozinka:</label><input type="password" name="pwd"><br>
+<label>Ime:</label><input type="text" name="ime"><br>
+<label>Prezime:</label><input type="text" name="prezime"><br>
+<label>Telefon:</label><input type="text" name="telefon"><br>
+<label>Email:</label><input type="text" name="email"><br>
+
+<div id="p">
+    <label>Zvanje:</label>
+    <select id="zvanje" name="zvanje">
+        <option selected="selected" value="">select</option>
+        <option value="profesor">profesor</option>
+        <option value="asistent">asistent</option>
+        <option value="saradnik">saradnik</option>
+    </select>
+
+</div>
+
+<div id="d">
+    <label>Godina Studija:</label>
+    <select id="godstudija" name="godstudija">
+        <option selected="selected" value="">select</option>
+        <option value="Igod">Igod</option>
+        <option value="IIgod">IIgod</option>
+        <option value="IIIgod">IIIgod</option>
+        <option value="IVgod">IVgod</option>
+    </select>
+    <label>Odsek:</label><input type="text" name="odsek"><br> 
+    <label>Prosek:</label><input type="text" name="prosek">
+</div>
+
+
+<div class="buttons">
+    <input type="submit" value="Registruj se">
+</div>
+
